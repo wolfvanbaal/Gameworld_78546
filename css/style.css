@@ -1,0 +1,301 @@
+body {
+  background-image: url("../images/undungeon.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-left: 260px;
+}
+
+#header {
+  width: 1000px;
+  height: 70px;
+  background: green;
+  margin: 0px;
+}
+
+#logo {
+  color: #ffffff;
+  font-size: 37px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 13px;
+  margin-left: 70px;
+}
+
+#logo a {
+  text-decoration: none;
+  color: gold;
+}
+
+#main-nav ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+#main-nav li{
+  display: inline;
+}
+
+#main-nav li a {
+  display: inline-block;
+  width: 100px;
+  height: 45px;
+  background-color: green;
+  text-align: center;
+  color: #fff;
+  padding-top: 24px;
+  margin-right: 45px;
+  margin-left: 51px;
+}
+
+#main-nav li a:hover {
+  background-color: #A80640;
+}
+
+#footer {
+  width: 1000px;
+background-color: #3a3a3a;
+color: #FFFFFF;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+margin-top: 10px;
+}
+
+#homepage {
+  position: relative;
+}
+
+#welcome {
+  position: absolute;
+  left: 50px;
+  top: 30px;
+  }
+
+#slogan {
+  width: 250px;
+  position: absolute;
+  left: 50px;
+  top: 60px;
+  padding-bottom: 5px;
+  border-bottom: 5px solid green;
+}
+
+#buttons ul {
+  list-style: none;
+}
+
+#buttons li{
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  float: left;
+  margin-right: 180px;
+}
+
+#buttons li a {
+  color: #ffffff;
+}
+
+#playstation {
+  background-color: #0b1d86;
+  padding-top: 25px;
+}
+
+#playstation:hover {
+  background-color: #150554;
+}
+
+#Nintendo_switch {
+  background-color: #a60000;
+  padding-top: 25px;
+}
+
+#Nintendo_switch:hover {
+  background-color: #690000;
+}
+
+#PC {
+  background-color: #0a6202;
+  padding-top: 25px;
+}
+
+#PC:hover {
+  background-color: #005301;
+}
+
+.games {
+  width: 1200px;
+}
+
+.game_item {
+  float: left;
+  margin-top: 10px;
+  margin-right: 95px;
+  margin-left: 50px;
+  position: relative;
+  width: 200px;
+  height: 300px;
+  background-color: white;
+  position: relative;
+}
+
+.BUYbutton {
+  position: absolute;
+  right: 0px;
+  width: 35px;
+  top: 150px;
+  background-color: coral;
+  padding: 5px;
+}
+
+.BUYbutton a {
+  text-decoration: none;
+  color: navy;
+}
+
+.clearfix {
+  clear: both;
+}
+
+#platforms {
+  display: inline;
+  height: 60px;
+  width: 1000px;
+  background-color: lime;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+#platforms h2 {
+  text-align: center;
+  margin-right: 65px;
+  margin-left: 65px;
+  display: inline-block;
+  height: 30px;
+  width: 200px;
+
+}
+
+#platforms h2:hover {
+  background-color: red;
+}
+
+#Playstation {
+  display: block;
+}
+
+#nintendo_switch{
+  display: none;
+}
+
+#Pc {
+  display: none;
+}
+
+#co {
+  background-color: crimson;
+  width: 1000px;
+}
+
+#checkouttable {
+  border: solid black 1px;
+  border-collapse: collapse;
+  width: 1000px;
+}
+
+#checkouttable thead tr {
+  background-color: crimson;
+}
+
+#checkouttable tr{
+  background-color: #cccccc;
+}
+
+#checkouttable tr:nth-child(even) {
+  background-color: #aaaaaa;
+}
+
+#checkouttable tfoot tr {
+  text-align: right;
+  background-color: black;
+  color: white;
+}
+
+#checkouttable img {
+  width: 70px;
+  margin: 10px;
+}
+
+#checkout {
+  background-color: lime;
+  width: 1000px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+#fix {
+  margin-left: 10px;
+  display: inline-block;
+  width: 200px;
+  padding-top: 10px;
+}
+
+#back {
+  text-align: center;
+  float: right;
+  margin-right: 10px;
+  display: inline-block;
+  width: 30px;
+  background-color: #ff0000;
+  padding: 10px;
+  border: 2px;
+  border-radius: 5px;
+}
+
+#buy {
+  text-align: center;
+  float: right;
+  margin-right: 10px;
+  display: inline-block;
+  width: 30px;
+  background-color: #ff0000;
+  padding: 10px;
+  border: 2px;
+  border-radius: 5px;
+}
+
+#buy a {
+  text-decoration: none;
+  color: #000;
+
+}
+
+#back a {
+  text-decoration: none;
+  color: #000;
+}
+
+#about{
+  background-color: navy;
+  width: 1000px;
+  color: white;
+}
+
+.info {
+  margin-left: 220px;
+  background-color: white;
+  width: 575px;
+}
+
+.info li{
+  text-align: center;
+  width: 500px;
+  list-style: none;
+}
+
+#contact {
+  background-color: darkgoldenrod;
+  width: 1000px;
+}
